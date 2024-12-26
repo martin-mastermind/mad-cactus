@@ -1,2 +1,19 @@
 :root {
+  --font-main: "Anonymous Pro", monospace;
+  --color-white: #ffffff;
+  --color-white5: #ffffff0d;
+  --color-white10: #ffffff1a;
+  --color-white25: #ffffff40;
+  --color-white50: #ffffff80;
+  --color-red: #ff382c;
+  --color-red50: #ff382c80;
+  --color-grey: #151516;
+  --color-black: #000000;
+}
+
+body {
+  font-family: var(--font-main);
+  color: #000;
+  background-color: #fff;
+  margin: 0;
 }
